@@ -1,0 +1,31 @@
+@mixin flex($dir, $x, $y){
+  display: flex;
+  flex-direction: $dir;
+  justify-content: $x;
+  align-items: $y;
+}
+
+@mixin title ($family,$size, $color){
+  font-family: $family;
+  font-size: $size;
+  color: $color;
+}
+
+@mixin shadow ($l, $b, $bl, $clr){
+  box-shadow:$l,$b,$bl,$clr;
+}
+
+@mixin brd-radius ($tl,$tr,$br,$bl){
+  border-radius:$tl $tr $br $bl;
+}
+
+@mixin animation ($du,$de){
+  animation: animate $du forwards $de ease;
+}
+
+@mixin infinite{
+  animation: ciclic 4s infinite 3s both ease;
+}
+
+
+
