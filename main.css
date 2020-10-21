@@ -7289,7 +7289,7 @@ nav > div {
   background-color: #33673b;
   height: 3rem; }
 
-#contact > div .left {
+#contacts > div .left {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -7300,11 +7300,11 @@ nav > div {
   background-position: center bottom;
   padding: 3rem; }
 
-#contact > div .form form {
+#contacts > div .form form {
   width: 50%; }
-  #contact > div .form form button {
+  #contacts > div .form form button {
     border: 1px solid #33673b; }
-    #contact > div .form form button:hover {
+    #contacts > div .form form button:hover {
       background-color: #F25218;
       border: 1px transparent;
       color: #d8cbc7; }
